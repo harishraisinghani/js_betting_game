@@ -1,0 +1,16 @@
+body {
+  background-image: url("http://il5.picdn.net/shutterstock/videos/7322854/thumb/3.jpg");
+}
+
+h1 {
+  color: #85bb65 !important;
+}
+
+p {
+  color: white;
+}
+
+.col-md-6.col-md-offset-3 {
+  text-align: center;
+}
+

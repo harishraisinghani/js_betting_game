@@ -1,7 +1,7 @@
 $(function() {
 
   // Initialize Variables
-  var sum = 10;
+  var sum = 100;
   var getBet;
   var getSelect;
 
@@ -53,6 +53,7 @@ $(function() {
 
   // Game Logic
   $("button").on('click', processBets);
+
   
 });
 
