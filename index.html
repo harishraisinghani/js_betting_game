@@ -1,15 +1,19 @@
 <!doctype html>
-
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Betting Game</title>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <title>Betting Game</title>
-  <script src="jquery-3.1.0.js"></script>
-</head>
+  <body>
+    <p>Current balance: <em id="balance"></em></p>
+    Place a bet between $1 and $10:<br>
+    <input type="text" id="bet"><br>
+    Guess a number between 1 and 10:<br>
+    <input type="text" id="select"><br>
+    <button>Let's Play!</button>
 
-<body>
-  <script src="jsBettingGame.js"></script> 
-</body>
-
+    <script src="jquery-3.1.0.js"></script>
+    <script src="jsBettingGame.js"></script>
+  </body>
 </html>
